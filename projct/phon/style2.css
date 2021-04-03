@@ -1,0 +1,37 @@
+
+ :lang(fa){
+             direction:rtl;
+             text-align:rtl;
+			 background-color: rgb(126 ,198, 199);
+			  
+         }
+:lang(en){
+               direction:ltr;
+         text-align:ltr;
+		
+          } 
+.btn-warning{
+	background-color:	rgba( 50 , 192 , 158  );
+	border-color:		rgba(100 , 30 , 203 );			
+}
+.btn-warning:hover{
+	background-color:	rgba(224 , 162 , 100 );
+}
+.alert-danger{
+	background-color:	rgba( 201 , 6 , 0 );
+	
+}
+.form-control{
+	margin-top:10px;
+	border-width: 1px 1px 1px 1px;
+	border-radius: 2px;
+}
+  
+  /* .form2 {
+	background-color:rgba( 20, 126, 248 );
+	}*/
+
+
+
+
+		 

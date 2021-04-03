@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang = "fa" dir="rtl">
+	<head>
+	<title>تماس با ادمین</title>
+		<meta charset = "utf8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.rtl.min.css" integrity="sha384-4dNpRvNX0c/TdYEbYup8qbjvjaMrgUPh+g4I03CnNtANuv+VAvPL6LqdwzZKV38G" crossorigin="anonymous">
+		
+		<link href = "style2.css" rel = "stylesheet">
+
+		<style>
+		</style>
+	</head>
+	<body class = "container">
+		<header></header>
+		<main>
+		<h1>ارتباط با ما</h1>
+		<form action="phone.php" method="post" enctype = "multipart/form-data">
+		<div class="mb-3">
+		   <label for="title" class="form-label">عنوان پیام:</label>
+		  <textarea id="title" name="title" class="form-control"></textarea><br>
+		  <span class="form-text">دوست عزیز لطفا عنوان پیام را وارد کنید</span>
+		</div>
+		<div class="mb-3">
+		  <label for="body" class="form-label">متن پیام:</label>
+		  <textarea id="body" name="body" class="form-control"></textarea><br>
+		  <span class="form-text">وارد کردن متن پیام الزامی است</span>
+		</div>
+		<div class="mb-3">
+		  <label for="email" class="form-label">ایمیل:</label>
+		  <textarea id="email" name="email" class="form-control"></textarea><br>
+		  <span class="form-text">درصورت تمایل به دریافت پاسخ نظر خود لطفا ایمیل خود را وارد کنید</span><br>
+		</div>
+		<div class="mb-3">
+		  <label for="email" class="form-label">جنسیت</label><br>
+		  <input type="radio" name="Gender" checked>مرد<br>
+		  <input type="radio" name="Gender" >زن<br>
+		  <input type="radio" name="Gender" >دیگر<br>
+		  <span class="form-text">حتما جنسیت خود را وارد کنید</span><br>
+		  <button type="submit" class = "btn btn-warning" name="save">ارسال نظر</button>
+		</div>
+		</form>
+	</main>
+		<aside></aside>
+		<footer></footer>
+	</body>
+</html>
